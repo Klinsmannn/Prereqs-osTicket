@@ -8,7 +8,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Video Demonstration</h2>
 
-- ### [YouTube: How To Install osTicket with Prerequisites](https://www.youtube.com)
+- ### [YouTube: How To Install osTicket with Prerequisites]_(https://www.youtube.com/watch?v=K7T_JjvEamg)
 
 <h2>Environments and Technologies Used</h2>
 
@@ -35,7 +35,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 </p>
 <p>
-Go to the Azure Portal and create your Virtual Machine. You can make the resource group as you create your virtual machine. Copy the public ip address of your virtual machine and log in Remotely.   
+Go to the Azure Portal and create your Virtual Machine. You can make your resource group as you create your virtual machine. Copy the public ip address of your virtual machine and log in Remotely to Windows Remote Desktop Connection.   
 </p>
 <br />
 
@@ -53,9 +53,25 @@ Internet Information Services -> Web Management Tools -> IIS Management Console
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/Klinsmannn/Prereqs-osTicket/assets/146140975/557e7920-2d27-401f-9cb4-7a5a1b121b53">
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+⬆️Install, Configure, and Register required programs that are needed to run osTicket. Heidi SQL, PHP Manager for IIS, Rewrite Module, My SQL, VC Redist, and then the actual osTicket itself. These versions might need updating.	
 </p>
-<br />sticket-prereqs**
+<br />
+
+<p>
+<img src="https://github.com/Klinsmannn/Prereqs-osTicket/assets/146140975/c7f216a6-cbd2-47d9-8cda-f8a7c9f83a19">
+<img src="https://github.com/Klinsmannn/Prereqs-osTicket/assets/146140975/ac28f3ca-5835-4b8a-81a7-922710dbafd8">
+</p>
+<p>
+Install your osTicket as either an Admin or Client. Before installing make sure My SQL is registered at the bottom of the page before installing osTicket or it wont let you move on to the next page. Dont forget username and password for both SQL and osTicket. Click Install
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Klinsmannn/Prereqs-osTicket/assets/146140975/90896273-231c-4b1c-98be-78cd5b9359bd">
+</p>
+<p>
+Go into your Osticket as either the end user to make your ticket for whatever troubleshooting issue your having or as an Agent to resolve tickets for the customer. As much information as possible is appreciated like time of day, whos affected, when was issued first noticed, were there any updates, severity of SLA  etc...
+OsTicket is free open source and you shouldn't have to pay.

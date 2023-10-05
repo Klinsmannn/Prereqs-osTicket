@@ -35,7 +35,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 </p>
 <p>
-Go to the Azure Portal and create your Virtual Machine. You can make your resource group as you create your virtual machine. Copy the public ip address of your virtual machine and log in Remotely to Windows Remote Desktop Connection.   
+Go to the Azure Portal and create your Virtual Machine. You can make your resource group as you create your virtual machine. Copy the public ip address of your virtual machine and log in Remotely to Windows Remote Desktop Connection. If you have Mac or other OS than download windows remote desktop app.  
 </p>
 <br />
 
@@ -73,5 +73,5 @@ Install your osTicket as either an Admin or Client. Before installing make sure 
 <img src="https://github.com/Klinsmannn/Prereqs-osTicket/assets/146140975/90896273-231c-4b1c-98be-78cd5b9359bd">
 </p>
 <p>
-Go into your Osticket as either the end user to make your ticket for whatever troubleshooting issue your having or as an Agent to resolve tickets for the customer. As much information as possible is appreciated like time of day, whos affected, when was issued first noticed, were there any updates, severity of SLA  etc...
+Go into your Osticket as either the end user to make your ticket for whatever troubleshooting issue your having or as an Agent to resolve tickets for the customer. As much information as possible is appreciated like the time of day, whos affected, when was issued first noticed, were there any updates, severity of SLA  etc...
 OsTicket is free open source and you shouldn't have to pay.
